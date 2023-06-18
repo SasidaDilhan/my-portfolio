@@ -4,18 +4,13 @@ import Footer from "../components/Footer";
 import Heroimg2 from "../components/Heroimg2";
 import MyProject from "../components/MyProject";
 
-
-
 const Project = () => {
   return (
     <div>
-      <Navbar /> 
+      <Navbar />
       <Heroimg2 heading="Project" text="" />
-      <MyProject/>
+      <MyProject />
       <Footer />
-      
-
-      
     </div>
   );
 };
