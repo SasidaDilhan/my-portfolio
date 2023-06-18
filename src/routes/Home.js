@@ -4,7 +4,7 @@ import HomeT from "../components/HomeT";
 import Footer from "../components/Footer";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
-import Project from "../components/MyProject";
+// import Project from "../components/MyProject";
 import { Form } from "../components/Form";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <HomeT />
       <AboutMe />
       <Skills />
-      <Project />
+      {/* <Project /> */}
       <Form />
       <Footer />
     </div>
