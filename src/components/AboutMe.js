@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import myimg from "../assets/myimg.jpg";
+import myimg from "../assets/my photo.png";
 import React from "react";
 
 const AboutMe = () => {
