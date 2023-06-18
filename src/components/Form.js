@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import "./Form.css";
 import { useState } from "react";
 
-
 export const Form = () => {
   const form = useRef();
 
@@ -14,10 +13,10 @@ export const Form = () => {
 
     emailjs
       .sendForm(
-        "service_xhbbnfj",
-        "template_wuchwwt",
+        "service_xwxqnqv",
+        "template_wr01w2c",
         form.current,
-        "VE0PHde_EM179Ds5R"
+        "7zdWjq786wwzsZvEY"
       )
       .then(
         (result) => {
@@ -34,8 +33,8 @@ export const Form = () => {
   };
 
   return (
-    <div name='form'>
-    <h1  style={{textAlign:`center`, marginTop:`30px`}}>Contact</h1>
+    <div name="form">
+      <h1 style={{ textAlign: `center`, marginTop: `30px` }}>Contact</h1>
       {status && RenderAlert()}
       <form ref={form} onSubmit={sendEmail}>
         <label>Subject</label>
@@ -54,6 +53,6 @@ export const Form = () => {
 
 const RenderAlert = () => (
   <div className="suc">
-    <p  className="p1">message sent successfully.</p>
+    <p className="p1">message sent successfully.</p>
   </div>
 );
