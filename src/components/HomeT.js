@@ -26,6 +26,15 @@ const HomeT = () => {
             }}
           />
         </h1>
+        <h1>
+          <Typewriter
+            options={{
+              strings: ["Web Developer💻"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h1>
         <div>
           <a
             className="btn"
