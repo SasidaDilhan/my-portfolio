@@ -2,7 +2,7 @@ import "./HomeT.css";
 import Typewriter from "typewriter-effect";
 
 import React from "react";
-import download from "../assets/download.jpg";
+import download from "../assets/background.jpg";
 import { Link } from "react-scroll";
 
 const HomeT = () => {
