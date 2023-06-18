@@ -99,7 +99,7 @@ const Footer = () => {
                 }}
               />
             </a>
-            <a href="https://www.linkedin.com/in/isuru-sajith-rajapaksha/">
+            <a href="https://www.linkedin.com/in">
               <FaLinkedin
                 size={30}
                 style={{
