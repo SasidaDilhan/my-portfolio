@@ -11,20 +11,19 @@ const AboutMe = () => {
           <div className="content1">
             <div className="article">
               <h3>
-                I am an undergraduate, currently following a B.Sc (Hons)
-                Information Technology degree offered by SLIIT at Malabe. I am a
-                well-organized, collaborative team player with strong
-                communication and analytical skills. I consider every challenge
-                I get as an opportunity to improve my skills. I would like to
-                use my skills to contribute productively and positively to
-                fulfill the goals of the organization while improving my
-                knowledge through hands-on learning and development work.
+                As a student of software engineering, I have a great interest
+                for developing creative software solutions that boost company
+                performance by increasing productivity and effectiveness.I
+                provide important leadership abilities with a track record of
+                inspiring, motivating, and educating teams to any endeavor. I am
+                a diligent and adaptable person with strong internal motivation
+                and a positive outlook. I can work well with others because of
+                my strong interpersonal and communication abilities.
               </h3>
             </div>
             <div className="image">
               <img className="myimg" src={myimg} alt="myimg" />
             </div>
-           
           </div>
         </div>
       </div>
