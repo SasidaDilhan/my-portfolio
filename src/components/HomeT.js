@@ -2,14 +2,16 @@ import "./HomeT.css";
 import Typewriter from "typewriter-effect";
 
 import React from "react";
-import download from "../assets/background.jpg";
+// import download from "../assets/background.jpg";
+import backvedio from "../assets/background vedio.mp4";
 import { Link } from "react-scroll";
 
 const HomeT = () => {
   return (
     <div className="homeT">
       <div className="mask">
-        <img className="download" src={download} alt="download" />
+        {/* <img className="download" src={download} alt="download" /> */}
+        <video src={backvedio} autoPlay loop muted />
       </div>
       <div className="content">
         <p className="tt">
@@ -25,7 +27,11 @@ const HomeT = () => {
           />
         </h1>
         <div>
-          <a className="btn" href="Isuru Sajith-CV.pdf" download="Isuru CV.pdf">
+          <a
+            className="btn"
+            href="Sasida Dilhan-CV.pdf"
+            download="Sasida Dilhan.pdf"
+          >
             RESUME
           </a>
           <Link
