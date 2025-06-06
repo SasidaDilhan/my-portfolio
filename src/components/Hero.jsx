@@ -18,7 +18,7 @@ const Hero = () => {
           alt="Profile"
           className="w-48 h-48 rounded-full mx-auto mb-8 border-4 border-white"
         />
-        <h1 className="text-5xl font-bold mb-4">Your Name</h1>
+        <h1 className="text-5xl font-bold mb-4">Sasida Dilhan</h1>
         <p className="text-xl mb-8">Full Stack Developer</p>
         <a
           href="#contact"
