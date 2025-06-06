@@ -1,5 +1,7 @@
 import myPhoto from "../assets/my photo.png";
 import background from "../assets/background.jpg";
+import { Download } from "lucide-react";
+import MyCV from "../../public/cv/SasidaDilhan.pdf";
 
 const Hero = () => {
   return (
@@ -20,12 +22,22 @@ const Hero = () => {
         />
         <h1 className="text-5xl font-bold mb-4">Sasida Dilhan</h1>
         <p className="text-xl mb-8">Full Stack Developer</p>
-        <a
-          href="contact"
-          className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full text-lg font-semibold transition-colors"
-        >
-          Contact Me
-        </a>
+        <div className="flex gap-4 justify-center">
+          <a
+            href="#contact"
+            className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full text-lg font-semibold transition-colors"
+          >
+            Contact Me
+          </a>
+          <a
+            href={MyCV}
+            download="Sasinda_Dilhan_CV.pdf"
+            className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 px-8 py-3 rounded-full text-lg font-semibold transition-colors"
+          >
+            <Download size={20} />
+            Download CV
+          </a>
+        </div>
       </div>
     </section>
   );
