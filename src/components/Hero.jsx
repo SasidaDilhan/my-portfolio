@@ -21,7 +21,7 @@ const Hero = () => {
         <h1 className="text-5xl font-bold mb-4">Sasida Dilhan</h1>
         <p className="text-xl mb-8">Full Stack Developer</p>
         <a
-          href="#contact"
+          href="contact"
           className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full text-lg font-semibold transition-colors"
         >
           Contact Me
